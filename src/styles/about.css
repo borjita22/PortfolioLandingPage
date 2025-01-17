@@ -1,0 +1,154 @@
+
+.about-container
+{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 1.5em;
+    margin-top: 3em;
+    margin-bottom: 5em;
+    
+}
+
+.about-container h1
+{
+    font-size: 200px;
+    opacity: 0.5;
+}
+
+.about-header
+{
+    position: relative;
+    left: 30px;
+    z-index: 1;
+    color: #4EE2EC;
+}
+
+.panel-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.about-content-panel
+{
+    display: flex;
+    flex-direction: row;
+    padding: 1.5em;
+    justify-content: space-between;
+}
+
+.about-content-panel img
+{
+   max-width: 500px;
+   height: auto;
+   
+   pointer-events: none;
+}
+
+.about-image
+{
+    border-radius: 50%;
+    overflow: hidden;
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: center;
+}
+
+.specific-image-fix
+{
+    object-position: center -30%;
+}
+
+.about-info-container
+{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 0 0 0 3em;
+}
+
+.about-info-container p
+{
+    font-size: 30px;
+}
+  
+.toggle-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative; 
+    z-index: 10;
+}
+
+.toggle-buttons button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.toggle-buttons button.active {
+    opacity: 1;
+}
+
+.content-container {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.panel-content {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+@media (max-width: 768px)
+{
+    .about-container
+    {
+        padding: 0;
+        justify-content: center;
+        text-align: center;
+    }
+    .about-container h1
+    {
+        font-size: 100px;
+        margin-right: 40px;
+    }
+
+    .about-content-panel
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .about-content-panel img
+    {
+        max-width: 250px;
+        height: auto;
+    }
+
+    .about-info-container
+    {
+        padding: 0;
+    }
+
+    
+    .about-info-container p
+    {
+        font-size: 20px;
+    }
+}

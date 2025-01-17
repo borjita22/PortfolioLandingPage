@@ -1,0 +1,13 @@
+/* styles/SmartCursor.css */
+
+.smart-cursor {
+    position: fixed;
+    width: 20px; /* Tamaño del cursor */
+    height: 20px;
+    border-radius: 50%;
+    pointer-events: none; /* Hace que el cursor no interfiera con los elementos */
+    transform: translate(-50%, -50%);
+    transition: background-color 0.2s ease, transform 0.1s ease;
+    z-index: 1000; /* Para asegurarnos de que esté encima de otros elementos */
+  }
+  

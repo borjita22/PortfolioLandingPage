@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  cursor: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #16161d;
+    --foreground: #ededed;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    --background: #ffffff;
+    --foreground: #171717;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.section {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+#custom-cursor
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  mix-blend-mode: difference;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+
+@media (max-width: 768px)
+{
+  /* Asegura que el resto del layout no tenga scroll horizontal */
+  body, html {
+    overflow-x: hidden;
+  }
+
+  body {
+    background-color: #16161d; /* Fondo negro en móvil */
+    color: #ededed;
+  }
+}

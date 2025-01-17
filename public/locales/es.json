@@ -1,0 +1,76 @@
+{
+    
+    "header_about_option": "SOBRE MI",
+    "header_experience_option": "EXPERIENCIA",
+    "header_projects_option": "PROYECTOS",
+    "header_contact_option": "CONTACTO",
+
+    "about_title": "SOBRE MI",
+    "about_text_1": "¡Hola! Mi nombre es Borja García y soy desarrollador de videojuegos y web. Nací en Oviedo, la capital de Asturias, y actualmente resido en la ciudad de Madrid. Desde muy joven quise dedicarme al desarrollo de videojuegos ya que esta es una de mis grandes pasiones. Por ello he estudiado ingeniería informática de software en la Universidad de Oviedo antes de realizar mi grado en diseño y desarrollo de videojuegos y aplicaciones virtuales.",
+    "about_text_2": "A nivel personal, mis grandes aficiones son, además del desarrollo de videojuegos a nivel personal, leer (algo que hago constantemente desde muy pequeño), el deporte y salir con mis familiares y amigos. También me encanta viajar, y he tenido la suerte de haber podido visitar multitud de lugares a pesar de mi edad. Además de todo ello, me siento muy atraído hacia el mundo de la escritura, y actualmente estoy desarrollando una serie de novelas de ciencia ficción fantástica que espero que podáis disfrutar leyendo algún día tanto como yo estoy disfrutando desarrollándolas.",
+    "about_text_3": "En cuanto a mis aptitudes, considero que dos de mis principales cualidades a nivel profesional son la proactividad y la ambición. Siempre dispuesto a ir un paso más allá en todos mis proyectos, trato de alcanzar siempre el mayor grado posible de perfección durante el desarrollo de los mismos. Otras cualidades que considero que me caracterizan son la capacidad de liderazgo y la comunicación, siempre tratando de establecer un buen ambiente de trabajo donde sea que esté desempeñando mi actividad.",
+    "experience_title": "EXPERIENCIA",
+    "experience_games_option": "VIDEOJUEGOS",
+
+    "frameworks_title": "FRAMEWORKS Y LENGUAJES",
+    "knowledge_section_title": "CONOCIMIENTO",
+
+    "knowledge_mechDesign": "Diseño de mecánicas",
+    "knowledge_gameplayProg": "Programación de gameplay",
+    "knowledge_modelling": "Modelado y texturizado",
+    "knowledge_animation": "Animación",
+    "knowledge_shaders": "Programación de shaders",
+    "knowledge_sound": "Diseño de sonido",
+    "knowledge_webDesign": "Diseño de web",
+    "knowledge_webProgrammingFront": "Programación frontEnd",
+    "knowledge_webProgrammingBack": "Programación backEnd",
+    "knowledge_seo": "Diseño de SEO",
+    "knowledge_versionControl": "Control de versiones",
+
+    "projects_title": "PROYECTOS",
+
+    "contact_title": "CONTACTO",
+    "contact_paragraph": "Si quieres contactar conmigo, envíame un email. También puedes acceder a mi repositorio de GitHub y a mi perfil de LinkedIn. Si lo deseas, también puedes ver mi CV y descargarlo desde tu navegador.",
+    "cv_link_text": "VER MI CV",
+
+
+    "games_option": "VIDEOJUEGOS",
+    "web_option": "WEB",
+    "games": {
+      "clown_climbing": {
+        "title": "CLOWN CLIMBING",
+        "description": "Juego de plataformas 2D con elementos Rogue-Like en el que tendrás que ascender a la cima de cada nivel para superar el desafío",
+        "tasks": "Diseño, programación y apartado artístico."
+      },
+      "mucus_goals": {
+        "title": "MUCUS GOALS",
+        "description": "Juego de plataformas y puzzles 2D donde tendrás que controlar las mentes de tus enemigos para superar los obstáculos.",
+        "tasks": "Diseño de mecánicas. Programación. Diseño de sonido."
+      },
+      "furballer": {
+        "title": "FURBALLER",
+        "description": "En este juego, tu objetivo es eliminar a tantas marionetas como sea posible dentro del tiempo utilizando una pelota de fútbol.",
+        "tasks": "Programación de gameplay."
+      },
+      "kaodi": {
+        "title": "KAODI",
+        "description": "Juego narrativo/acción en el que, junto a su protagonista Barren, tendrás que abrirte paso a través de una tierra desolada por la guerra.",
+        "tasks": "Lead de programación. Programación de sistemas de diálogos, mundo interior y sistemas de guardado y localización."
+      }
+    },
+
+    "web": {
+      "web1": {
+        "title": "PORTFOLIO",
+        "description": "Página web de portfolio desarrollada como medio de aprendizaje de los lenguajes html, css, javaScript y PHP. Proyecto inicial.",
+        "tasks": "Diseño y desarrollo completo de la web, tanto del frontEnd como del backEnd."
+      },
+      "web2": {
+        "title": "PROYECTO SECRETO",
+        "description": "Página web para aplicación móvil desarrollada completamente por mí. Proyecto aún por desvelar.",
+        "tasks": "Diseño de aplicación. Diseño de web."
+      }
+    }
+}
+
+  

@@ -1,0 +1,175 @@
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-top: 1.5em;
+    margin-bottom: 3em;
+    overflow: hidden;
+}
+
+.experience-container h1
+{
+    font-size: 200px;
+    opacity: 0.5;
+    width: 100%;
+    padding: 20px;
+    color: #FFFF33;
+}
+
+.experience-options
+{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    color: #ededed;
+}
+
+.knowledge-fields
+{
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten en filas */
+    gap: 20px; /* Espaciado uniforme entre elementos */
+    justify-content: center; /* Centra los elementos en el contenedor */
+    
+}
+
+.knowledge-fields p
+{
+    margin: 0.5em;
+    font-size: 30px;
+}
+
+
+  
+.option {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    font-size: 2rem;
+    opacity: 0.5;
+}
+
+.option.active {
+    font-weight: bold;
+    opacity: 1;
+}
+
+.experience-content {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+  
+.experience-main-panel {
+    font-size: 5rem;
+    color: #fff;
+    text-align: center;
+}
+
+.frameworks-container
+{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    gap: 1em;
+    
+}
+
+.frameworks-container img
+{
+    width: 200px;
+    height: auto;
+    cursor: none;
+    transition: transform .2s ease;
+}
+
+.frameworks-container img:hover
+{
+    transform: scale(1.25);
+}
+
+.knowledge-slot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 300px;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+}
+
+.knowledge-slot:hover
+{
+    background-color: rgba(255, 192, 196, 0.5);
+}
+
+.knowledge-slot:hover .knowledge-slot-img
+{
+    opacity: 100%;
+}
+
+.knowledge-slot-img {
+    opacity: 30%;
+}
+
+
+@media (max-width: 768px) {
+
+
+    .experience-container
+    {
+        padding: 0;
+        text-align: center;
+    }
+
+    .experience-container h1 {
+        font-size: 100px; /* Ajustar el tamaño del título en pantallas pequeñas */
+        margin-right: 15px;
+    }
+
+    .experience-content {
+        width: 100%;
+        height: auto; /* Ajustar la altura según el contenido en pantallas pequeñas */
+        padding: 0;
+    }
+
+    .experience-options a
+    {
+        color: #ededed;
+    }
+
+    .knowledge-fields
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .frameworks-container {
+        flex-direction: column;
+        overflow-x: auto; /* Activamos el scroll horizontal solo para este contenedor */
+        scroll-snap-type: x mandatory; /* Asegura que los iconos se alineen al hacer scroll */
+        -webkit-overflow-scrolling: touch; /* Mejora el scroll en dispositivos móviles */
+        padding-bottom: 1em; /* Espacio para evitar que el scroll corte los iconos */
+    }
+
+    .frameworks-container img {
+        width: 100vw; /* Iconos ocupan el 80% del ancho del viewport */
+        max-width: 150px; /* Tamaño máximo del icono en dispositivos móviles */
+        flex-shrink: 0; /* Evita que se redimensionen al hacer scroll */
+        scroll-snap-align: center; /* Centra el icono durante el scroll */
+    }
+
+    
+}

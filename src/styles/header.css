@@ -1,0 +1,175 @@
+/* Estilos generales del header */
+
+body
+{
+    font-family: var(--font-new-font), serif;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+    position: relative;
+  }
+
+  .logo
+  {
+    padding: 2.5em;
+    
+  }
+  
+  .logo img {
+    max-width: 450px;
+    width: 450px;
+    transition: all 1s ease;
+  }
+
+  .logo img:hover {
+    animation: rotate360 1s linear;
+    
+  }
+  
+  .hamburger-menu {
+    display: flex; /* Siempre mostrar el icono de hamburguesa */
+    flex-direction: column;
+    gap: 4px;
+    padding-top: 50px;
+  }
+  
+  .hamburger-menu .bar {
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    transition: transform 0.3s, opacity 0.3s;
+  }
+  
+  /* Menú de navegación */
+  .nav-menu {
+    display: block; /* Usamos block en lugar de flex */
+    max-height: 0; /* Inicialmente el menú está oculto */
+    overflow: hidden; /* Evitar que se vea el contenido mientras está oculto */
+    position: relative;
+    top: 20px; /* Ajusta esta propiedad para que el menú aparezca justo debajo del icono */
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    gap: 10px;
+    opacity: 0; /* Inicialmente el menú es transparente */
+    transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out; /* Animamos max-height y opacity */
+  }
+  
+  
+  .nav-menu.open {
+    max-height: 500px; /* Lo suficientemente grande para que el menú se expanda completamente */
+    opacity: 1; /* El menú se vuelve visible */
+  }
+  
+  .nav-menu ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center
+  }
+  
+  .nav-menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    cursor: none;
+  }
+  
+  /* Animación del icono de la hamburguesa */
+  .hamburger-menu.open .bar-1 {
+    transform: rotate(45deg) translateY(6px) translateX(5px);
+  }
+  
+  .hamburger-menu.open .bar-2 {
+    opacity: 0;
+  }
+  
+  .hamburger-menu.open .bar-3 {
+    transform: rotate(-45deg) translateY(-6px) translateX(5px);
+  }
+
+
+  .about-option:hover
+  {
+    color: #4EE2EC;
+  }
+
+  .experience-option:hover
+  {
+    color: #FFFF33;
+  }
+
+  .projects-option:hover
+  {
+    color: #FA2A55;
+  }
+
+  .contact-option:hover
+  {
+    color: #C3FDB8;
+  }
+
+  .language-switcher {
+    position: absolute;
+    top: 10px; 
+    right: 10px;
+    display: flex;
+    gap: 10px; 
+  }
+  
+  .language-switcher button {
+    background: none;
+    border: none;
+    cursor: none;
+    padding: 5px;
+    transition: transform 0.2s;
+  }
+  
+  .language-switcher button.active {
+    transform: scale(1.1);
+  }
+  
+  .language-switcher img {
+    width: 30px; 
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.3s, transform 0.3s;
+  }
+  
+  .language-switcher button:hover img {
+    transform: scale(1.1); 
+    opacity: 0.8;
+  }
+  
+
+
+  @media (max-width: 600px)
+  {
+    .logo img
+    {
+      max-width: 350px;
+    }
+
+  }
+
+  @keyframes rotate360 {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+
+
+
+
+  

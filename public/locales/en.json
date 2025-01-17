@@ -1,0 +1,81 @@
+{
+    
+    "header_about_option": "ABOUT",
+    "header_experience_option": "EXPERIENCE",
+    "header_projects_option": "PROJECTS",
+    "header_contact_option": "CONTACT",
+
+    "about_title": "ABOUT",
+    "about_text_1": "Hi! My name is Borja García and I am a video game and web developer. I was born in Oviedo, the capital of Asturias, and I currently live in the city of Madrid. From a very young age I wanted to dedicate myself to video game development since this is one of my great passions. For this reason, I studied software engineering at the University of Oviedo before completing my degree in video game and virtual application design and development.",
+    "about_text_2": "On a personal level, apart from developing video games on a personal level, my biggest hobbies are reading (something I have been doing constantly since I was very young), sports and hanging out with my family and friends. I also love travelling, and I have been lucky enough to have been able to visit many places despite my age. In addition to all this, I feel very drawn to the world of writing, and I am currently developing a series of fantastic science fiction novels that I hope you will enjoy reading one day as much as I am enjoying developing them.",
+    "about_text_3": "As for my skills, I consider that two of my main qualities at a professional level are proactivity and ambition. Always willing to go one step further in all my projects, I always try to achieve the highest possible degree of perfection during their development. Other qualities that I consider to characterize me are leadership capacity and communication, always trying to establish a good working environment wherever I am carrying out my activity.",
+
+    "experience_title": "EXPERIENCE",
+    "experience_games_option": "GAMES",
+
+    "frameworks_title": "FRAMEWORKS & LANGUAGES",
+    "knowledge_section_title": "KNOWLEDGE",
+
+    "knowledge_mechDesign": "Mechanics design",
+    "knowledge_gameplayProg": "Gameplay programming",
+    "knowledge_modelling": "Modelling and texturing",
+    "knowledge_animation": "Animation",
+    "knowledge_shaders": "Shaders programming",
+    "knowledge_sound": "Sound design",
+    "knowledge_webDesign": "Webpage design",
+    "knowledge_webProgrammingFront": "FrontEnd programming",
+    "knowledge_webProgrammingBack": "BackEnd programming",
+    "knowledge_seo": "SEO design",
+    "knowledge_versionControl": "Version control",
+
+    "projects_title": "PROJECTS",
+
+    "contact_title": "CONTACT ME",
+    "contact_paragraph": "If you want to contact me, just send a mail. You can also access to my public Github repository and to my LinkedIn profile. If you prefer, you can also see my CV and downloading it from your browser.",
+    "cv_link_text": "SEE MY CV",
+
+    "games_option": "GAMES",
+    "web_option": "WEB",
+    "games": {
+      "clown_climbing": {
+        "title": "CLOWN CLIMBING",
+        "description": "2D platform game with Rogue-Like elements where you'll have to climb to the top of each level to overcome the challenge",
+        "tasks": "Design, programming and artistic direction."
+      },
+      "mucus_goals": {
+        "title": "MUCUS GOALS",
+        "description": "2D platform and puzzle game where you'll have to control your enemies' minds to overcome obstacles.",
+        "tasks": "Game mechanics design. Programming. Sound design."
+      },
+      "furballer": {
+        "title": "FURBALLER",
+        "description": "In this game, your goal is to eliminate as many puppets as possible within the time limit using a football.",
+        "tasks": "Gameplay programming."
+      },
+      "kaodi": {
+        "title": "KAODI",
+        "description": "Narrative/action game in which, together with its protagonist Barren, you'll have to make your way through a war-torn land.",
+        "tasks": "Lead programming. Programming of dialogue systems, inner world and save/localization systems."
+      }
+    },
+
+    "web": {
+      "web1": {
+        "title": "PORTFOLIO",
+        "description": "Portfolio webpage developed to learn basic html, css, javaScript and PHP languages. Initial web project.",
+        "tasks": "Complete design and development of the page, both frontEnd and backEnd systems."
+      },
+      "web2": {
+        "title": "SECRET PROJECT",
+        "description": "Webpage for a mobile application all developed by myself. yet to be revealed.",
+        "tasks": "Application and web design."
+      }
+    }
+
+    
+    
+  }
+
+
+  
+  

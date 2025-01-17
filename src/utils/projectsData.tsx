@@ -40,7 +40,7 @@ export const getWebProjects = (t: any): Project[] => [
     description: t('web.web1.description', { ns: 'projects' }),
     tasks: t('web.web1.tasks', { ns: 'projects' }),
     image: "/Resources/Imgs/FirstWebpage.png",
-    link: "https://borchdevportfolio.netlify.app"
+    link: "https://borchdev.com"
   },
   {
     title: t('web.web2.title', { ns: 'projects' }),

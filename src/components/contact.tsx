@@ -54,7 +54,7 @@ const Contact: React.FC = () =>
                         />
                     </a>
                 </div>
-                <a href="/Resources/assets/CV.pdf" className="download-cv" target="_blank">{t('cv_link_text')}</a>
+                <a href="/Resources/assets/CV_BorjaGarcia.pdf" className="download-cv" target="_blank">{t('cv_link_text')}</a>
             </div>
         </section>
     );

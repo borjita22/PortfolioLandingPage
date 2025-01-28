@@ -7,7 +7,7 @@ const Footer : React.FC = () => {
     return(
         <footer>
             <div>
-                <span className='text-3xl font-bold'>BORCHDEV, 2024</span>
+                <span className='text-3xl font-bold'>BORCHDEV, 2025</span>
             </div>
         </footer>
         
